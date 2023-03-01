@@ -1,8 +1,10 @@
 FROM ruby:3.2-alpine3.17
 
+RUN gem install mrsk 
+
 RUN apk add git
 
-RUN gem install mrsk 
+RUN git config --global --add safe.directory /github/workspace
 
 COPY entrypoint.sh /entrypoint.sh
 
