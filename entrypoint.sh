@@ -1,3 +1,5 @@
 #!/bin/sh
 
-mrsk deploy
+ls 
+git status 
+
