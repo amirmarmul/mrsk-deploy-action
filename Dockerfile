@@ -2,8 +2,6 @@ FROM ruby:3.2-alpine3.17
 
 RUN gem install mrsk 
 
-WORKDIR /app
+COPY entrypoint.sh /entrypoint.sh
 
-COPY . .
-
-ENTRYPOINT [ "mrsk" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
