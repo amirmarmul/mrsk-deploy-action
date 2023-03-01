@@ -1,5 +1,9 @@
 name: 'MRSK Deploy'
 description: 'MRSK deploys web apps anywhere from bare metal to cloud VMs using Docker with zero downtime'
+branding:
+  icon: 'droplet'
+  color: 'blue'
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
