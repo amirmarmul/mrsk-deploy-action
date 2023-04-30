@@ -2,4 +2,4 @@
 
 git config --global --add safe.directory /github/workspace
 
-mrsk
+mrsk "$@"
