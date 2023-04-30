@@ -1,5 +1,1 @@
-FROM kacestudio/mrsk
-
-COPY entrypoint.sh /entrypoint.sh
-
-ENTRYPOINT [ "/entrypoint.sh" ]
+FROM ghcr.io/mrsked/mrsk:v0.11.0
