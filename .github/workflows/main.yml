@@ -9,4 +9,5 @@ jobs:
       - name: MRSK deploy action step 
         id: mrsk
         uses: ./
-        args: version
+        with: 
+          args: version
