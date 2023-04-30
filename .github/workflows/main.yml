@@ -10,9 +10,9 @@ jobs:
         uses: webfactory/ssh-agent@v0.7.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      # - name: MRSK help command
-      #   uses: ./
-      # - name: MRSK version command
-      #   uses: ./
-      #   with: 
-      #     args: version
+      - name: MRSK help command
+        uses: ./
+      - name: MRSK version command
+        uses: ./
+        with: 
+          args: version
